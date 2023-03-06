@@ -5,7 +5,7 @@ def owerwrite_tables(cur):
         cur.execute ("""
             DROP TABLE IF EXISTS client_phone;
             DROP TABLE IF EXISTS client_info;""")
-        return 'OK'
+        
     
 
 def create_bd(cur):
